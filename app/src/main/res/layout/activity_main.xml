@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="210dp"
+        android:layout_height="105dp"
+        android:text="Welcome\nto UILover"
+        android:textColor="#ffffff"
+        android:textSize="40sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="41dp"
+        tools:layout_editor_absoluteY="123dp" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/shape2"
+        tools:layout_editor_absoluteX="166dp"
+        tools:layout_editor_absoluteY="196dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        app:srcCompat="@drawable/ic_2"
+        tools:layout_editor_absoluteX="262dp"
+        tools:layout_editor_absoluteY="263dp" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="David"
+        android:textColor="#470341"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="266dp"
+        tools:layout_editor_absoluteY="338dp" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="230dp"
+        android:layout_height="317dp"
+        app:srcCompat="@drawable/shape1"
+        tools:layout_editor_absoluteX="-4dp"
+        tools:layout_editor_absoluteY="365dp" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="75dp"
+        android:layout_height="74dp"
+        app:srcCompat="@drawable/ic_1"
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="440dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Katrin"
+        android:textColor="#470341"
+        android:textSize="30sp"
+        android:textStyle="bold"
+
+
+        tools:layout_editor_absoluteX="28dp"
+        tools:layout_editor_absoluteY="514dp" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="254dp"
+        android:layout_height="207dp"
+        android:scaleType="center"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.63"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/shape3"
+        tools:layout_editor_absoluteY="652dp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="GO Now"
+        android:textColor="#470341"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        tools:layout_editor_absoluteX="156dp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="66dp"
+        android:layout_height="41dp"
+        app:srcCompat="@drawable/heat"
+        tools:layout_editor_absoluteX="174dp"
+        tools:layout_editor_absoluteY="733dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
